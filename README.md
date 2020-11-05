@@ -18,3 +18,15 @@ sigma_r Range between 0 to 1.
 sigma_s controls how much the image is smoothed - the larger its value, the more smoothed the image gets, but it's also slower to compute.
 
 sigma_r is important if you want to preserve edges while smoothing the image. Small sigma_r results in only very similar colors to be averaged (i.e. smoothed), while colors that differ much will stay intact.
+
+### Example 
+
+# Basic Image
+![image](https://user-images.githubusercontent.com/20369800/98198290-aae55b00-1f4e-11eb-9c71-1a49106e955e.png)
+
+
+# After Pencil Effect
+
+
+![image](https://user-images.githubusercontent.com/20369800/98198309-b46ec300-1f4e-11eb-8f8c-4596cd6d5f45.png)
+
